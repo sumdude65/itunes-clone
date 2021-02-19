@@ -1,0 +1,141 @@
+:root {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: justify;
+}
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  max-height: 10vh;
+  background-color: #303030;
+  color: white;
+}
+header p {
+  margin-left: 1em;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.showcase {
+  height: 100vh;
+  background-image: url(img/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  text-align: center;
+}
+.colored {
+  background-color: #252529;
+}
+.h1 {
+  font-size: 50px;
+  line-height: 0.5em;
+}
+.h2 {
+  font-size: 30px;
+}
+.p {
+  font-size: 18px;
+}
+.mockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 1em;
+}
+.mockup_img p {
+  text-align: center;
+}
+.content a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  background-color: red;
+}
+#red {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  background-color: blue;
+}
+.stars {
+  background-image: url(img/stars.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.4em;
+}
+.stars p {
+  width: 70%;
+  text-align: center;
+  font-size: 19px;
+}
+.giftcards {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+#image {
+  width: 50%;
+  height: 300px;
+}
+#image img {
+  width: 80%;
+}
+#gift-text {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.giftcards p {
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+#question {
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.giftcards a {
+  text-decoration: none;
+  color: #03a5fc;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background-color: #303030;
+  color: white;
+}
